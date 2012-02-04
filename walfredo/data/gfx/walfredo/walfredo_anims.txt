@@ -1,0 +1,63 @@
+// Formato:
+// 1 2 3 4 5 6
+//
+// 1 - nome
+// 2 - arquivo de origem
+// 3 - número de quadros
+// 4 - velocidade
+// 5 - se entra em loop
+// 6 - onde recomecar o loop. Só necessário se loop for "false".
+//
+// Parado - direita
+parado walfredo 4 90 true 1
+
+// Parado - esquerda
+parado walfredo2 4 90 true 1
+
+// Andando - direita
+andando walfredo_andando 4 90 true 1
+
+// Andando - esquerda
+andando walfredo_andando2 4 90 true 1
+
+// Pulo - direita
+pulo walfredo_pulando 1 1 false
+
+// Pulo - esquerda
+pulo walfredo_pulando2 1 1 false
+
+// Machucado - direita
+ugh walfredo_ugh 2 93 true 1
+
+// Machucado - esquerda
+ugh walfredo_ugh2 2 93 true 1
+
+// Soco - direita
+soco walfredo_soco 4 93 false
+
+// Soco - esquerda
+soco walfredo_soco2 4 93 false
+
+// Chute - direita
+chute walfredo_chute 4 93 false
+
+// Chute - esquerda
+chute walfredo_chute2 4 93 false
+
+// Cabeçada - direita
+cabecada walfredo_cabecada 4 93 false
+
+// Cabeçada - esquerda
+cabecada walfredo_cabecada2 4 93 false
+
+// Voadora - direita
+voadora walfredo_voadora 3 93 false 3
+
+// Voadora - esquerda
+voadora walfredo_voadora2 3 93 false 3
+
+// Calças - direita
+calcas walfredo_calcas 3 90 false 3
+
+// Calças - esquerda
+calcas walfredo_calcas2 3 90 false 3

@@ -1,0 +1,56 @@
+// Formato:
+// NomeDoEvento Parametro1 Parametro2 ...
+//
+// Eventos:
+//    ________________________________________________________________________
+//   | Nome            | Parametros                                           |
+//   |-----------------|------------------------------------------------------|
+//   | CriarInimigo    | tipo posicaoX posicaoY                               |
+//   | MostrarMensagem | mensagem* fonte* tamanho cor tempo posicaoX posicaoY |
+//   | AbrirCenario    | quantidade                                           |
+//   | EsperarMorte    |                                                      |
+//   | PassarDeFase    |                                                      |
+//   | MusicaChefe     |                                                      |
+//   '------------------------------------------------------------------------'
+//   * Os espaços devem ser substituídos por underscores ( _ )
+//
+//
+//   Constantes de cores para a mensagem:
+//
+//      BRANCA
+//      AMARELA
+//      VERMELHA
+//
+
+
+// Fase 2
+
+MostrarMensagem Fase_2:_A_Aventura_Continua Arial 22 BRANCA 200 20 90
+CriarInimigo 1 340 140
+CriarInimigo 1 320 140
+EsperarMorte
+MostrarMensagem Go! Arial 30 AMARELA 100 260 90
+AbrirCenario 50
+CriarInimigo 1 -70 130
+CriarInimigo 2 340 170
+CriarInimigo 1 320 -70
+EsperarMorte
+MostrarMensagem Go! Arial 30 AMARELA 100 260 90
+AbrirCenario 50
+CriarInimigo 2 -80 120
+CriarInimigo 2 320 170
+EsperarMorte
+MostrarMensagem Go! Arial 30 AMARELA 100 260 90
+AbrirCenario 50
+CriarInimigo 2 -80 170
+CriarInimigo 1 340 170
+CriarInimigo 2 320 170
+EsperarMorte
+MostrarMensagem Go! Arial 30 AMARELA 100 260 90
+AbrirCenario 50
+MusicaChefe
+CriarInimigo 3 -60 160
+CriarInimigo 3 340 170
+EsperarMorte
+MostrarMensagem Fase_Concluída! Arial 30 BRANCA 200 20 90
+PassarDeFase

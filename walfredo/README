@@ -1,0 +1,27 @@
+Welcome to 2003!
+
+This is a game I've worked on as a second semester project on college. The full team was:
+
+- Dalton Cezane
+- Helder Fernando
+- Fabricio Gutemberg
+- Alvaro Magnum
+- Me
+
+I've worked on the game engine and tools, graphics and guided the AI development. It's shock full of "what the hell was I thinking" quirks, but it's a fond memory.
+
+To build and run the game:
+   
+    ant
+    ./run.sh
+
+On the first run, it'll take some seconds to pre-process the levels and animations into serialized Java objects (I told you there were some quirks!). Also, it'll open an itty bitty little windows. Sorry, 800x600 was how I rolled those days.
+
+Ah, and it's all in Portuguese!
+
+The controls are:
+
+- Arrow keys move the character and moves the selector on the main menu
+- Z and X jump and attack
+- X noves forward on the intro cinematic and starts the game
+- ESC skips the intro

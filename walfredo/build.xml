@@ -1,0 +1,11 @@
+ <project name="Walfredo" default="makejar" basedir=".">
+
+    <target name="build">
+        <javac srcdir="src" destdir="bin"/>
+    </target>
+
+    <target name ="makejar" depends="build"  description="Create a file">
+        <jar jarfile="walfredo.jar" includes="**/*.class" basedir="bin"/>
+    </target>
+
+</project>

@@ -1,0 +1,45 @@
+// Formato:
+// 1 2 3 4 5 6
+//
+// 1 - nome
+// 2 - arquivo de origem
+// 3 - número de quadros
+// 4 - velocidade
+// 5 - se entra em loop
+// 6 - onde recomecar o loop. Só necessário se loop for "false".
+//
+// Parado - direita
+parado bully1_ 3 90 true 1
+
+// Parado - esquerda
+parado bully1_2 3 90 true 1
+
+// Andando - direita
+andando bully1_andando 4 90 true 1
+
+// Andando - esquerda
+andando bully1_andando2 4 90 true 1
+
+// Pulo - direita
+pulo bully1_pulando 1 1 false
+
+// Pulo - esquerda
+pulo bully1_pulando2 1 1 false
+
+// Machucado - direita
+ugh bully1_ugh 2 93 true 1
+
+// Machucado - esquerda
+ugh bully1_ugh2 2 93 true 1
+
+// Soco - direita
+soco bully1_ataque1 4 93 false
+
+// Soco - esquerda
+soco bully1_ataque12 4 93 false
+
+// Voadora - direita
+voadora bully1_voadora 1 1 false
+
+// Voadora - esquerda
+voadora bully1_voadora2 1 1 false

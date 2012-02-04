@@ -1,0 +1,13 @@
+// Formato:
+// 1 2 3 4 5 6
+//
+// 1 - nome
+// 2 - arquivo de origem
+// 3 - número de quadros
+// 4 - velocidade
+// 5 - se entra em loop
+// 6 - onde recomecar o loop. Só necessário se loop for "false".
+//
+
+// Glowing
+glow bolamenu 6 90 true 1
